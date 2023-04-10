@@ -429,10 +429,52 @@
 																							</code></pre>
 				</section>
 
+				<section data-background="https://images3.alphacoders.com/107/1073849.jpg">
+					<h2>Prueba unitaria</h2>
+					<pre data-id="code-animation"><code class="hljs javascript" data-trim data-line-numbers>
+																												console.log
+																												Chispum
+																												√ deberia imprimir chis si recibe 3 (4 ms)
+																												√ deberia imprimir chis si recibe un multiplo de 3 (21 ms)
+																												√ deberia imprimir pum si recibe 5 (2 ms)
+																												√ deberia imprimir un chispum, si tiene multiplo de 3 y 5 (4 ms)
+																												
+																												------------|---------|----------|---------|---------|-------------------
+																												File | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
+																												------------|---------|----------|---------|---------|-------------------
+																												All files | 100 | 100 | 100 | 100 |
+																												chispum.js | 100 | 100 | 100 | 100 |
+																												------------|---------|----------|---------|---------|-------------------
+																												Test Suites: 1 passed, 1 total
+																												Tests: 5 passed, 5 total
+																												Snapshots: 0 total
+																												Time: 6.023 s
+																												Ran all test suites.
+																											</code></pre>
+				</section>
+
+				<section data-background="https://images3.alphacoders.com/107/1073849.jpg">
+					<h2>Prueba con el numero 15</h2>
+					<pre data-id="code-animation"><code class="hljs javascript" data-trim data-line-numbers>
+																											console.log("Chispum");
+																											
+																											console.log("envio un 15 => " + chispum(15));
+																											
+																											module.exports = chispum;
+																															</code></pre>
+
+					<h2>Resultado</h2>
+					<pre data-id="code-animation"><code class="hljs javascript" data-trim data-line-numbers>
+																																																										node chispum.js
+																																																										Chispum
+																																																										envio un 15 => chispum
+																																																														</code></pre>
+				</section>
+
 
 				<section data-background="https://images3.alphacoders.com/107/1073849.jpg">
 					<h2>VIDEO EXPLICATIVO</h2>
-					<iframe width="860" height="515" src="https://www.youtube.com/embed/gmc7FstCm-g"
+					<iframe width="760" height="515" src="https://www.youtube.com/embed/oUnY8RScx8g"
 						title="YouTube video player" frameborder="0"
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 						allowfullscreen></iframe>
